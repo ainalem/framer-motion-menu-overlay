@@ -1,0 +1,96 @@
+.App {
+  align-items: center;
+  background-color: #ececec;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 25px;
+  box-sizing: border-box;
+  height: 526px;
+  overflow: hidden;
+  padding: 20px;
+  position: relative;
+  width: 238px;
+}
+
+.subtitle {
+  margin-top: 120px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 8px;
+}
+
+.body {
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 16px;
+}
+
+.icon {
+  height: 32px;
+  position: absolute;
+  left: 198px;
+  top: 329px;
+  width: 32px;
+}
+
+.icon-drop {
+  fill: white;
+}
+
+.icon-line {
+  stroke: #282828;
+  stroke-width: 6px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.menu {
+  color: white;
+  position: absolute;
+  top: 80px;
+}
+
+.menu-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 8px;
+}
+
+.menu-options {
+  margin-top: 16px;
+}
+
+.menu-option {
+  line-height: 32px;
+}
+
+.drag-box {
+  align-items: center;
+  background-color: blueviolet;
+  border: 1px dotted black;
+  border-radius: 24px;
+  display: flex;
+  height: 80px;
+  left: 156px;
+  opacity: 0.7;
+  justify-content: center;
+  position: absolute;
+  top: 303px;
+  width: 80px;
+}
+
+.overlay {
+  fill: #25314d;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
